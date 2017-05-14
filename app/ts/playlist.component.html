@@ -1,0 +1,6 @@
+<ul>
+    <li *ngFor="#v of videos" (click)="onSelect(v)">
+        <span>{{v.id}}</span>
+        <span>{{v.title}}</span>
+    </li>
+</ul>
